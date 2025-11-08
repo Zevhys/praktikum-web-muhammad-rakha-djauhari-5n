@@ -23,8 +23,8 @@ Route::get('/admin/barang/delete/{id}', [AdminController::class, 'delete_barang'
 Route::post('/admin/barang/simpan', [AdminController::class, 'simpan_barang']); //ini untuk menyimpan data
 Route::post('/admin/barang/update/{id}', [AdminController::class, 'update_barang']); //ini untuk mengupdate data
 
-Route::post('/admin/laporan', [LaporanController::class, 'index']); //ini untuk mengupdate data
-Route::post('/admin/laporan/barang', [LaporanController::class, 'cetak_barang']); //ini untuk mengupdate data
+Route::get('/admin/laporan', [LaporanController::class, 'index']); //ini untuk mengupdate data
+Route::get('/admin/laporan/barang', [LaporanController::class, 'cetak_barang']); //ini untuk mengupdate data
 
 Route::get('/kasir', function () {
     return view('layouts.master');

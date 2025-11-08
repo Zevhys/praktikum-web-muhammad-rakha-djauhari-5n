@@ -25,5 +25,10 @@
             </tr>
         @endforeach
     </table>
+    <p align="right">Banjarmasin, 8 November 2025</p>
+    <p align="right">Admin</p>
+    <br>
+    <br>
+    <p align="right"><b>Muhammad Rakha Djauhari</b></p>
 </body>
 </html>
